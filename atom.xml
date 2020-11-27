@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Roctey</title>
+  
+  <subtitle>莫下饭</subtitle>
+  <link href="https://roctey.cn/atom.xml" rel="self"/>
+  
+  <link href="https://roctey.cn/"/>
+  <updated>2020-11-27T10:57:02.458Z</updated>
+  <id>https://roctey.cn/</id>
+  
+  <author>
+    <name>Roctey / 莫下饭</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第1章 噩梦</title>
+    <link href="https://roctey.cn/posts/d44630c2.html"/>
+    <id>https://roctey.cn/posts/d44630c2.html</id>
+    <published>2020-11-25T11:39:12.000Z</published>
+    <updated>2020-11-27T10:57:02.458Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第1章-噩梦&quot;&gt;&lt;a href=&quot;#第1章-噩梦&quot; class=&quot;headerlink&quot; title=&quot;第1章 噩梦&quot;&gt;&lt;/a&gt;第1章 噩梦&lt;/h1&gt;&lt;p&gt;夜色漆黑，月色朦胧，杂草丛生的小树林被冷风吹的呼呼作响。&lt;/p&gt;
+&lt;p&gt; “哑——”&lt;/p&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="小说" scheme="https://roctey.cn/categories/%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+    <category term="救赎之宿命" scheme="https://roctey.cn/tags/%E6%95%91%E8%B5%8E%E4%B9%8B%E5%AE%BF%E5%91%BD/"/>
+    
+    <category term="小说" scheme="https://roctey.cn/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>救赎之宿命开篇</title>
+    <link href="https://roctey.cn/posts/5c84a61d.html"/>
+    <id>https://roctey.cn/posts/5c84a61d.html</id>
+    <published>2020-11-25T11:18:12.000Z</published>
+    <updated>2020-11-27T10:57:02.458Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;救赎之宿命开篇&quot;&gt;&lt;a href=&quot;#救赎之宿命开篇&quot; class=&quot;headerlink&quot; title=&quot;救赎之宿命开篇&quot;&gt;&lt;/a&gt;救赎之宿命开篇&lt;/h1&gt;&lt;p&gt;  类型：悬疑、犯罪&lt;/p&gt;
+&lt;p&gt; </summary>
+        
+      
+    
+    
+    
+    <category term="小说" scheme="https://roctey.cn/categories/%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+    <category term="救赎之宿命" scheme="https://roctey.cn/tags/%E6%95%91%E8%B5%8E%E4%B9%8B%E5%AE%BF%E5%91%BD/"/>
+    
+    <category term="小说" scheme="https://roctey.cn/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
+  
+</feed>

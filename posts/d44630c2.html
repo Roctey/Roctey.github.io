@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>第1章 噩梦 | Roctey</title>
+    <title>第1章 噩梦 | 莫下饭</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -26,12 +26,13 @@
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <link rel="stylesheet" type="text/css" href="/libs/artitalk/artitalk.min.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Roctey" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="莫下饭" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -48,7 +49,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #FFF;
+        background: #cce8cf;
         text-align: center;
         /* loader页面消失采用渐隐的方式*/
         -webkit-transition: opacity 1s ease;
@@ -170,6 +171,19 @@
  
  
 <body>
+        
+        <div id="loading-container">
+             <p class="loading-text">嘘~  正在从服务器偷取页面 . . . </p> 
+             <div class="loading-image">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+                 <div></div> 
+                 <div></div>
+             </div>
+        </div>
+    
+
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -178,7 +192,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Roctey</span>
+                    <span class="logo-span">莫下饭</span>
                 </a>
             </div>
             
@@ -254,6 +268,17 @@
   
   <li class="hide-on-med-and-down nav-item">
     
+    <a href="/artitalk" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>说说</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
     <a href="/friends" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
@@ -277,7 +302,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Roctey</div>
+        <div class="logo-name">莫下饭</div>
         <div class="logo-desc">
             
             为了人类美好的未来,我辈定当鞠躬尽瘁死而后已。
@@ -351,6 +376,17 @@
 			    <i class="fa-fw fas fa-comments"></i>
 			
 			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/artitalk" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			ArtiTalk
 		</a>
           
         </li>
@@ -520,8 +556,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                小说
+                            <a href="/categories/%E6%95%91%E8%B5%8E%E4%B9%8B%E5%AE%BF%E5%91%BD/" class="post-category">
+                                救赎之宿命
                             </a>
                         
                     </div>
@@ -540,7 +576,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-11-27
+                    2020-11-30
                 </div>
                 
 
@@ -884,6 +920,11 @@
 
     
         <style>
+	.v[data-class="v"] .vwrap .vheader .vinput {
+	  width: 32%;
+	  border-bottom: 1px dashed #dedede;
+	}
+
     .valine-card {
         margin: 1.5rem auto;
     }
@@ -1163,9 +1204,9 @@ new Valine({
         meta: ["nick", "mail", "link"],
         recordIP: 'true' === 'true',
         enableQQ: 'monsterid',
-        requiredFields: ["6cf64d005e0cf244dfb8d0457205192c"],
-        master: ["6cf64d005e0cf244dfb8d0457205192c"],
-        friends: ["c08508165c8eba9a77f8c2853xxxx09e", "901345d4c91ddfd8db0f175bbcfff0c8", "1512958e18378c98b498d5effe3e76ff"],
+        requiredFields: ["c8e640b38b1c2a95a55e95132ffebfa7"],
+        master: ["c8e640b38b1c2a95a55e95132ffebfa7"],
+        friends: ["c08508165c8eba9a77f8c2853xxxx09e", "4503324e66b22a5941c82fa645b750df", "5db2141e69f5015da35375fb8d098bd3"],
         tagMeta: ["博主", "小伙伴", "访客"],
         metaPlaceholder: metaPlaceholder,
 
@@ -1180,42 +1221,40 @@ new Valine({
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/d44630c2.html">
+                <a href="/posts/32bdce7e.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.roctey.cn/comic0072Vf1pgy1fodqo4ntdtj31cq0yggz8.jpg" class="responsive-img" alt="第1章 噩梦">
+                        <img src="https://cdn.roctey.cn/comic0072Vf1pgy1foxkfmp926j31kw0w07u1.jpg" class="responsive-img" alt="第2章 失踪">
                         
-                        <span class="card-title">第1章 噩梦</span>
+                        <span class="card-title">第2章 失踪</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            夜色漆黑，月色朦胧，杂草丛生的小树林被冷风吹的呼呼作响。
+                            救赎之宿命
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-25
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-26
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                    小说
+                            <a href="/categories/%E6%95%91%E8%B5%8E%E4%B9%8B%E5%AE%BF%E5%91%BD/" class="post-category">
+                                    救赎之宿命
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1249,7 +1288,7 @@ new Valine({
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            随心所欲，为所欲为，爱看不看。
+                            随心所欲, 爱看不看。
                         
                     </div>
                     <div class="publish-info">
@@ -1260,8 +1299,8 @@ new Valine({
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                    小说
+                            <a href="/categories/%E6%95%91%E8%B5%8E%E4%B9%8B%E5%AE%BF%E5%91%BD/" class="post-category">
+                                    救赎之宿命
                                 </a>
                             
                             
@@ -1317,7 +1356,7 @@ new Valine({
 
         var url = document.location.href;
         newdiv.innerHTML += '<br />'
-            + '来源: Roctey<br />'
+            + '来源: 莫下饭<br />'
             + '文章作者: Roctey / 莫下饭<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
             + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
@@ -1467,7 +1506,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.1k</span>&nbsp;字
+                class="white-color">120.8k</span>&nbsp;字
             
             
             
